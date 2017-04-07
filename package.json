@@ -1,7 +1,7 @@
 {
-  "name": "newbound-dark-syntax",
+  "name": "newbound-enhanced-dark-syntax",
   "theme": "syntax",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "A highly legible, medium contrast, dark syntax theme for Atom",
   "keywords": [
     "syntax",
@@ -10,7 +10,7 @@
     "markdown",
     "gray"
   ],
-  "repository": "https://github.com/opattison/newbound-dark-syntax",
+  "repository": "https://github.com/kellerj/newbound-enhanced-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

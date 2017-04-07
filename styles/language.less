@@ -1,11 +1,11 @@
 // Default language syntax highlighting
 
 .syntax--comment {
-  color: @base04;
+  color: @syntax-color-comment;
 }
 
 .syntax--keyword {
-  color: @base0D;
+  color: @syntax-color-keyword;
 
   &.syntax--control {
     color: @base0E;
@@ -25,7 +25,7 @@
 }
 
 .syntax--constant {
-  color: @base09;
+  color: @syntax-color-constant;
 
   &.syntax--character.syntax--escape {
     color: @base0C;
@@ -45,14 +45,14 @@
 }
 
 .syntax--variable {
-  color: @base08;
+  color: @syntax-color-variable;
 
   &.syntax--variable.syntax--interpolation {
     color: @base0F;
   }
 
   &.syntax--parameter.syntax--function {
-    color: @base05;
+    color: @syntax-color-function;
   }
 }
 
