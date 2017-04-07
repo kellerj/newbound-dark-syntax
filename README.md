@@ -1,6 +1,8 @@
-# <a href="https://atom.io/themes/newbound-dark-syntax"><img src="http://opensource.olivermak.es/images/2016-03-27-olivermakes-favicon32.svg" width="32" height="32"></a> <a href="https://atom.io/themes/newbound-dark-syntax">newbound dark</a> syntax theme for Atom
+# UCD Admin IT dark syntax theme for Atom
 
-**newbound dark** is a subtle, medium contrast theme for [Atom](https://atom.io), based on the hues and shades from [Oliver Pattison’s website](https://olivermak.es). Optimized for writing Markdown and front-end development, it should also work for general use.
+Credit: forked from [newbound dark](https://atom.io/themes/newbound-dark-syntax) with help from selectors borrowed from [pubster-syntax](https://atom.io/themes/pubster-syntax)
+
+This is a subtle, medium contrast theme for [Atom](https://atom.io), based on the hues and shades from [Oliver Pattison’s website](https://olivermak.es). Optimized for writing Markdown and front-end development, it should also work for general use.
 
 See also: [newbound light](https://atom.io/themes/newbound-light-syntax) and [newbound warm](https://atom.io/themes/newbound-warm-syntax).
 
@@ -15,6 +17,7 @@ See also: [newbound light](https://atom.io/themes/newbound-light-syntax) and [ne
 ## Features
 
 - Medium contrast without any dissonant color pairings
+    - UCD Change: switched background color to pure black to increase contrast.
 - Consistent support for syntax grammar across languages
 - Carefully selected, [Base16](https://github.com/chriskempson/base16)-inspired palette, with blue and red accents
 - Support for UIs that are responsive to hues from syntax themes, like the built-in [One Dark UI theme](https://atom.io/themes/one-dark-ui)
@@ -26,6 +29,7 @@ See also: [newbound light](https://atom.io/themes/newbound-light-syntax) and [ne
 
 - HTML
 - (GitHub-flavored) Markdown
+- language-markdown (markup)
 - Liquid
 - CSS
 - SCSS/Sass
@@ -38,29 +42,9 @@ See also: [newbound light](https://atom.io/themes/newbound-light-syntax) and [ne
 
 General support for other languages is intended but not guaranteed.
 
-**newbound** is friendly toward [Jekyll](https://jekyllrb.com) development, particularly if used with [liquid-language](https://atom.io/packages/language-liquid) support (not built-in).
+Friendly toward [Jekyll](https://jekyllrb.com) development, particularly if used with [liquid-language](https://atom.io/packages/language-liquid) support (not built-in).
 
 Optimized for [One Dark UI](https://atom.io/themes/one-dark-ui) and [One Light UI](https://atom.io/themes/one-light-ui).
-
-### HTML (and Liquid)
-
-![HTML and Liquid text sample](http://opensource.olivermak.es/images/2016-03-29-newbound-dark-html.png)
-
-### Markdown
-
-![Markdown text sample](http://opensource.olivermak.es/images/2016-03-29-newbound-dark-md.png)
-
-### JavaScript
-
-![JavaScript code sample](http://opensource.olivermak.es/images/2016-03-29-newbound-dark-js.png)
-
-### SCSS (or CSS, Sass, or Less)
-
-![SCSS text sample](http://opensource.olivermak.es/images/2016-03-29-newbound-dark-scss.png)
-
-### Ruby
-
-![Ruby code sample](http://opensource.olivermak.es/images/2016-03-29-newbound-dark-ruby.png)
 
 ## Install
 
@@ -75,10 +59,6 @@ Search in **Settings (Preferences) > Install** for this package.
 `$ apm install newbound-dark-syntax`
 
 After it is installed, it can be activated by going to the **Settings (Preferences) > Themes** section and selecting it from the **Syntax Theme** menu.
-
-### Not using Atom?
-
-Use the `colors.yml` file with [Base16 Builder](https://github.com/chriskempson/base16-builder) to generate a theme for a different text editor. This theme was created by hand, so results may vary from this implementation.
 
 ---
 
