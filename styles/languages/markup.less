@@ -1,0 +1,91 @@
+.syntax--markup {
+
+  &.syntax--bold,
+  &.syntax--heading,
+  &.syntax--strong.syntax--emphasis {
+    font-weight: bold;
+  }
+
+  &.syntax--italic,
+  &.syntax--emphasis:not(.syntax--strong) {
+    font-style: italic;
+  }
+
+  &.syntax--underline {
+    text-decoration: underline;
+  }
+
+  &.syntax--strike {
+    text-decoration: line-through;
+    color: @syntax-color-keyword;
+    //-webkit-text-decoration-style: dashed; IMPLEMENTED SOON, KEEPING IN TO REMIND ME
+  }
+
+  &.syntax--substitution,
+  &.syntax--changed {
+    color: @syntax-color-keyword;
+  }
+
+  &.syntax--heading {
+    .syntax--heading-1{
+      color: mix(@syntax-color-header, @syntax-text-color, 100);
+    }
+    .syntax--heading-2{
+      color: mix(@syntax-color-header, @syntax-text-color, 90);
+    }
+    .syntax--heading-3{
+      color: mix(@syntax-color-header, @syntax-text-color, 80);
+    }
+    .syntax--heading-4{
+      color: mix(@syntax-color-header, @syntax-text-color, 60);
+    }
+    .syntax--heading-5{
+      color: mix(@syntax-color-header, @syntax-text-color, 40);
+    }
+    .syntax--heading-6{
+      color: mix(@syntax-color-header, @syntax-text-color, 20);
+    }
+  }
+
+
+
+  &.syntax--inserted,
+  &.syntax--addition {
+    color: @syntax-color-added;
+  }
+
+  &.syntax--quote {
+  color: @syntax-text-color;
+  font-style: italic;
+  .syntax--punctuation {
+    color: @syntax-color-renamed;
+  }
+}
+
+
+  &.syntax--deletion {
+    color: @syntax-color-removed;
+  }
+
+  &.syntax--link {
+    //color: @syntax-color-variable;
+
+    .syntax--string {
+      //color: @syntax-color-header;
+    }
+  }
+
+  &.syntax--list {
+    & > .syntax--punctuation {
+      color: @syntax-color-tag;
+    }
+  }
+
+  &.syntax--raw,
+  &.syntax--code {
+    color: @syntax-color-import;
+  }
+  .syntax--punctuation {
+   opacity: 0.5;
+ }
+}
