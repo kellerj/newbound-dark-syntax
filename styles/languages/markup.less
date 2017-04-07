@@ -47,10 +47,6 @@
     }
   }
 
-  &.syntax--table {
-    color: @base0F;
-  }
-
   &.syntax--inserted,
   &.syntax--addition {
     color: @syntax-color-added;
@@ -78,6 +74,7 @@
   }
 
   &.syntax--list {
+    color: @syntax-color-function;
     & > .syntax--punctuation {
       color: @syntax-color-tag;
     }
@@ -87,8 +84,12 @@
   &.syntax--code {
     color: @syntax-color-import;
   }
-  .syntax--punctuation {
-    opacity: 0.5;
+  // .syntax--punctuation {
+  //   opacity: 0.5;
+  // }
+
+  &.syntax--hyperlink {
+    color: @base0B;
   }
 }
 
