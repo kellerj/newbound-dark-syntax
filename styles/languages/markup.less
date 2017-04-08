@@ -69,10 +69,10 @@
   }
 
   &.syntax--link {
-    //color: @syntax-color-variable;
+    color: @syntax-color-variable;
 
     .syntax--string {
-      //color: @syntax-color-header;
+      color: @syntax-color-header;
     }
   }
 
@@ -106,9 +106,9 @@
     //   }
     // }
     // 
-    // &.syntax--hr {
-    //   color: @pubster-color-string;
-    // }
+    &.syntax--hr {
+      color: @base0A;
+    }
     // &.syntax--quote {}
     // 
     // &.syntax--link {
@@ -175,9 +175,16 @@
     //   &.syntax--ordered {}
     //   &.syntax--empty {}
     // 
-    //   &.syntax--task {
-    //     &.syntax--completed {}
-    //   }
+      &.syntax--task {
+          color: @syntax-color-added;
+        &.syntax--completed {
+            text-decoration: line-through;
+            color: @base04;          
+        }
+        .syntax--punctuation.syntax--md {
+          color: @syntax-text-color;
+        }
+      }
     // 
     //   &.syntax--definition {}
     // }
