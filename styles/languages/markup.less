@@ -69,7 +69,7 @@
   }
 
   &.syntax--link {
-    color: @syntax-color-variable;
+    color: @base0E;
 
     .syntax--string {
       color: @syntax-color-header;
@@ -87,9 +87,9 @@
   &.syntax--code {
     color: @syntax-color-import;
   }
-  // .syntax--punctuation {
-  //   opacity: 0.5;
-  // }
+  .syntax--punctuation {
+    opacity: 0.6;
+  }
 
   &.syntax--hyperlink {
     color: @base0B;
@@ -194,13 +194,14 @@
     //     background: fade(@_neutral, 10%)
     //   }
     // 
-    //   &.syntax--fenced {
-    //     .syntax--punctuation.syntax--md {
-    //       color: @pubster-color-header;
-    //       font-style: italic;
-    //     }
-    //     &.syntax--info {}
-    //   }
+      &.syntax--fenced {
+        .syntax--punctuation.syntax--md {
+          color: @syntax-color-import;
+          font-style: italic;
+          opacity: 0.75;
+        }
+        &.syntax--info {}
+      }
     // 
     //   &.syntax--raw {}
     // }
