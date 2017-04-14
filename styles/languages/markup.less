@@ -72,7 +72,7 @@
     color: @base0E;
 
     .syntax--string {
-      color: @syntax-color-header;
+      color: @syntax-color-string;
     }
   }
 
@@ -111,20 +111,21 @@
     }
     // &.syntax--quote {}
     // 
-    // &.syntax--link {
+    &.syntax--link {
     //   color: @pubster-color-variable;
     //   .syntax--string {
     //     color: @pubster-color-header;
     //   }
     //   &.syntax--text {}
-    //   &.syntax--destination {
-    //     .syntax--uri {}
-    //     text-decoration: underline;
-    //   }
-    //   &.syntax--label {}
-    //   &.syntax--title {
-    //     font-style: italic;
-    //   }
+    &.syntax--destination {
+      .syntax--uri {}
+      text-decoration: underline;
+    }
+    //&.syntax--label {}
+    &.syntax--title {
+      font-style: italic;
+      color: @syntax-color-attribute;
+    }
     //   &.syntax--auto {
     //     &.syntax--email {}
     //   }
@@ -135,7 +136,7 @@
     //     &.syntax--reference {}
     //     &.syntax--definition {}
     //   }
-    // }
+    }
     // 
     // &.syntax--gfm {
     //   &.syntax--reference {
