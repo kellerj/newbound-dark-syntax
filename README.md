@@ -1,4 +1,4 @@
-# UCD Admin IT dark syntax theme for Atom
+# Newbound Enhanced Dark syntax theme for Atom
 
 Credit: forked from [newbound dark](https://atom.io/themes/newbound-dark-syntax) with help from selectors borrowed from [pubster-syntax](https://atom.io/themes/pubster-syntax)
 
@@ -10,14 +10,12 @@ See also: [newbound light](https://atom.io/themes/newbound-light-syntax) and [ne
 
 ![sample of newbound colors](http://opensource.olivermak.es/images/2016-03-30-newbound-dark-sample.png)
 
-[View on Atom.io](https://atom.io/themes/newbound-dark-syntax)
-
-[View on GitHub](https://github.com/opattison/newbound-dark-syntax)
+[View on GitHub](https://github.com/kellerj/newbound-enhanced-dark-syntax)
 
 ## Features
 
 - Medium contrast without any dissonant color pairings
-    - UCD Change: switched background color to pure black to increase contrast.
+    - Change: switched background color to pure black to increase contrast slightly.
 - Consistent support for syntax grammar across languages
 - Carefully selected, [Base16](https://github.com/chriskempson/base16)-inspired palette, with blue and red accents
 - Support for UIs that are responsive to hues from syntax themes, like the built-in [One Dark UI theme](https://atom.io/themes/one-dark-ui)
@@ -50,6 +48,8 @@ Optimized for [One Dark UI](https://atom.io/themes/one-dark-ui) and [One Light U
 
 This theme can be installed with the Atom package manager in the app or on the command line.
 
+**NOT WORKING - Module not published to make this possible**
+
 ### Within Atom
 
 Search in **Settings (Preferences) > Install** for this package.
@@ -64,4 +64,4 @@ After it is installed, it can be activated by going to the **Settings (Preferenc
 
 ## Have a problem or a suggestion?
 
-**[Submit an issue on GitHub](https://github.com/opattison/newbound-dark-syntax/issues)**
+**[Submit an issue on GitHub](https://github.com/kellerj/newbound-enhanced-dark-syntax/issues)**
